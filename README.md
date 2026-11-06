@@ -83,7 +83,7 @@ var getShape = require( '@stdlib/ndarray-shape' );
 var arr = new Float32Matrix();
 // returns <ndarray>
 
-var len = getShape( arr );
+var sh = getShape( arr );
 // returns [ 0, 0 ]
 ```
 
